@@ -11,20 +11,20 @@ var yelp = require("yelp").createClient({
 // Get list of Business
 // exports.index = function(req, res) {
 //   yelp.search({term: "food", location: "yelp-san-francisco"}, function(error, data) {
-//   //   console.log(error);
+//     // console.log(error);
 //     // businesses = data.businesses;
 //     _(data.businesses).forEach(function(item){
 //       console.log(item)
 //       // Business.find({id: item.id, phone: item.phone}, function(err, business){
-//       //   if(!business){
-//           // Business.create(item, function(err, bus) {
-//             // if(err) { return handleError(res, err); }
-//             // return res.json(201, business);
-//           // });
-//       //   }
+//         // if(!business){
+//           Business.create(item, function(err, bus) {
+//             if(err) { return handleError(res, err); }
+//             return res.json(201, business);
+//           });
+//         // }
 //       // })
 //     })
-//     // res.json(200, data);
+//     res.json(200, data);
 //   });
 //   // Business.find(function (err, businesses) {
 //   //   if(err) { return handleError(res, err); }
