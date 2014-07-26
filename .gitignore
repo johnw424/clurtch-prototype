@@ -6,3 +6,4 @@ dist
 /keys
 .envrc
 npm-debug.log
+.DS_Store
